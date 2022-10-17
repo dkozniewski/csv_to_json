@@ -18,7 +18,7 @@ import (
 func main() {
 
 	// Flags
-	csvDir := flag.String("csv", "./csv_files", "a string")
+	csvDir := flag.String("csv", "./sample_data_csv", "a string")
 	jsonDir := flag.String("json", "./json_files", "a string")
 
 	flag.Parse()

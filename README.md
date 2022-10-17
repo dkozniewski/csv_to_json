@@ -9,14 +9,14 @@ go run .
 ```
 Default value:
 
--csv=./csv_files
+-csv=./sample_data_csv
 
 -json=./json_files
 
 or
 
 ```
-go run main.go -csv=csv_files -json=json_files 
+go run . -csv=sample_data_csv -json=json_files 
 ```
 
 or Absolute path
